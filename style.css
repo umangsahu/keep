@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Nunito:ital,wght@1,300&family=Varela+Round&display=swap');
+
+*{
+    margin:0%;
+    padding: 0;
+}
+
+.navbar{
+    height:75px;
+    background-color: rgb(40, 127, 204);
+    font-family: 'Comic Neue', cursive;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Varela Round', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    position: relative;
+    left: 400px;
+    top:50px;
+    height: 40px;
+    width:110px;
+    background-color: rgb(40, 127, 204);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.notes textarea{
+    height: 250px;
+    width:auto;
+
+}
